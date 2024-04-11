@@ -8,10 +8,10 @@ import pymssql
 
 def insert_data_to_sql(df):
     connection = pymssql.connect(
-        host="10.3.96.168",
-        user="N000184123",
-        password="N000184123@npc",
-        database="3033"
+        host="",
+        user="",
+        password="",
+        database=""
     )
     cursor = connection.cursor()
 
